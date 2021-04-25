@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <LangVersion>9</LangVersion>
+        <EnableNETAnalyzers>true</EnableNETAnalyzers>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>Lucaniss</Authors>
+        <Copyright>Łukasz Flakowski</Copyright>
+        <Description>Dispatcher is a Command Dispatcher design pattern implementation that links the Request with the appropriate Request-Handler.</Description>
+        <PackageIcon>logo.png</PackageIcon>
+        <PackageProjectUrl>https://github.com/lucaniss/dispatcher</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/lucaniss/dispatcher</RepositoryUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageTags>dispatcher mediator cqrs</PackageTags>
+        <Version>1.0.1</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\Assets\logo.png">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
+        <None Include="..\LICENSE">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
+    </ItemGroup>
+
+</Project>

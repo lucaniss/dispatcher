@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Lucaniss.Dispatcher.Extensions.AutoFac\Lucaniss.Dispatcher.Extensions.AutoFac.csproj" />
+        <ProjectReference Include="..\Lucaniss.Dispatcher.Extensions.ServiceProvider\Lucaniss.Dispatcher.Extensions.ServiceProvider.csproj" />
+        <ProjectReference Include="..\Lucaniss.Dispatcher\Lucaniss.Dispatcher.csproj" />
+    </ItemGroup>
+
+</Project>
