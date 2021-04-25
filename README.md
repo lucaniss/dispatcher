@@ -1,4 +1,9 @@
 # Dispatcher
+
+![GitHub](https://img.shields.io/github/license/Lucaniss/Dispatcher)
+![GitHub last commit](https://img.shields.io/github/last-commit/Lucaniss/dispatcher?)
+![Nuget](https://img.shields.io/nuget/v/Lucaniss.Dispatcher)
+
 Dispatcher is a simple Command Dispatcher design pattern implementation that links the Request with the appropriate Request-Handler.
 
 #### Installation
