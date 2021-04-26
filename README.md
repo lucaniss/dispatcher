@@ -32,7 +32,7 @@ Depending on the selected extension, this may slightly differ.
 But here is a sample code for Microsoft ServiceProvider library extension:
 
 ```c#
-// Create your Dependency Injection container builder.
+// Create Dependency Injection container builder.
 var services = new ServiceCollection();
 
 // Call AddDispatcher() extension method.
